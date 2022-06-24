@@ -1,0 +1,80 @@
+@font-face{
+    font-family: "redes";
+    src: url("../fonts/Redes.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    background-color: #151226;
+    color: #F2B6A0;
+    
+}
+.logotipo{
+    height: 70px;
+    width: auto;
+}
+#sub{
+    text-decoration: none;
+}
+body{
+    background-color: #A68A99;
+}
+.logo{
+    height: 200px;
+    width: auto;
+}
+.img{
+    height: 150px;
+    width: auto;
+}
+.g{
+    width: 100%;
+}
+.uno{
+
+    background-color: rgba(0, 0, 0, 0.171);
+    backdrop-filter: blur(10px);
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.616);
+    border-radius: 10px;
+    
+
+}
+.cosas{
+    width: 100%;
+    margin-top: 4rem;
+    background-color: #A68A99;
+    color: #151226;
+}
+.tres{
+    background-color: #151226;
+    color: #F2B6A0;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.616);
+}
+.bajar{
+    margin-top: 7rem;
+}
+.marg{
+    margin-top: 3rem;
+}
+footer{
+    background-color: #151226;
+}
+#redes, footer>span{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+#redes{
+    text-align: left;
+    padding: 10px 20px 0 10px;
+}
+#redes a{
+    font-family: redes;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #F2B6A0;
+}
